@@ -1,13 +1,8 @@
 <template>
 	<div class="c-main-wrapper">
 		<v-container class="fill-height">
-			<v-row align="center" justify="center"></v-row>
-				<v-row>
-					<router-view></router-view>
-				</v-row>
-				
+			<router-view></router-view>
 		</v-container>
-		
 	</div>
 </template>
 
