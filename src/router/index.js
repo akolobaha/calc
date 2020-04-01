@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import cAgeDiff from '../components/calculators/time/c-age-diff.vue'
 import cPercent from '../components/calculators/numbers/c-percent.vue'
+import cRandNum from '../components/calculators/numbers/c-rand-num.vue'
 
 Vue.use(VueRouter)
 
@@ -23,7 +24,13 @@ const routes = [
 		path: '/percent',
 		name: 'Процент от числа',
 		component: cPercent
+	},
+	{
+		path: '/random',
+		name: 'Случайное число',
+		component: cRandNum
 	}
+	
 ]
 
 const router = new VueRouter({

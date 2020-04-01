@@ -16,7 +16,9 @@
 				<v-list-item>
 					<v-btn to="/percent" text small>Процент от числа</v-btn>
 				</v-list-item>
-
+				<v-list-item>
+					<v-btn to="/random" text small>Случайное число</v-btn>
+				</v-list-item>
 			</v-list>
 		</v-navigation-drawer>
     <v-app-bar 
@@ -71,3 +73,4 @@ export default {
 	}
 };
 </script>
+

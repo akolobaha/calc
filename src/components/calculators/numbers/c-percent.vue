@@ -49,10 +49,10 @@
 			</v-card-title>
 			<v-card-text class="d-flex align-baseline"> 
 				<v-chip class="mx-2" color="green" dark>Отнять</v-chip>
-				<v-text-field class="mx-2" color="green" label="Процентов" v-model.number="percent3"></v-text-field> 
+				<v-text-field class="mx-2" color="green" label="Процентов" v-model.number="percent3" v-mask="mask"></v-text-field> 
 				<v-chip class="mx-2" color="green" dark>%</v-chip>
 				<v-chip class="mx-2" color="green" dark>от числа</v-chip>
-				<v-text-field class="mx-2" color="green" label="Числа 2" v-model.number="num3"></v-text-field> 
+				<v-text-field class="mx-2" color="green" label="Числа 2" v-model.number="num3" v-mask="mask"></v-text-field> 
 				<v-chip class="mx-2" color="green" dark>=</v-chip>
 				<v-chip class="mx-2" color="green" dark>{{ subtractPercentToNum() }}</v-chip>
 			</v-card-text>
